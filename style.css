@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: .5em;
+}
+
+#board {
+    margin-top: 1em;
+    display: flex;
+    border: 2px solid black;
+    flex-flow: row nowrap;
+}
+
+.column {
+    width: 75px;
+    border: 1px solid black;
+    height: calc(75px * 6);
+}
+
+.red-text {
+    color: red;
+}
+
+.green-text {
+    color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.disc {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin: auto;
+}
